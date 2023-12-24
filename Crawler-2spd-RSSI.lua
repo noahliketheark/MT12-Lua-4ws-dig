@@ -370,13 +370,13 @@ end
 -- Fill wheels when diffs locked CHANGE CHANNEL NUMBERS IN LINES 373 AND 387 AND CHANNEL VALUES IN 374 AND 379 TO SUIT YOUR MODEL 
 local function draw_locked_diffs()
 
-    local channel_5_value = getValue("ch5") 
-    if channel_5_value > 0 then
+    local front_diff_status = getValue("ch5") 
+    if front_diff_status > 0 then
         lcd.drawFilledRectangle(vehicle_x - 2 - wheel_width, vehicle_y - 5, wheel_width, wheel_height)
         lcd.drawFilledRectangle(vehicle_x - 2 + vehicle_width + 4, vehicle_y - 5, wheel_width, wheel_height)
 	end
-	local channel_6_value = getValue("ch6")
-    if channel_6_value > 0 then
+	local rear_diff_status = getValue("ch6")
+    if rear_diff_status > 0 then
 		lcd.drawFilledRectangle(vehicle_x - 2 - wheel_width, vehicle_y + vehicle_height - wheel_height + 3, wheel_width, wheel_height)
 		lcd.drawFilledRectangle(vehicle_x - 2 + vehicle_width + 4, vehicle_y + vehicle_height - wheel_height + 3, wheel_width, wheel_height)
     end
@@ -400,13 +400,13 @@ local function run(event)
   draw_vehicle()
 
   -- Display L for low speed.  Change channel number line 403 and value line 404 to suit your model
-    local channel_3_value = getValue("ch3")
-    if channel_3_value < -512 then
+    local transmission_speed = getValue("ch3")
+    if transmission_speed < -512 then
     indicate_low_speed()
     end
 
   --Display H for high speed.  Change channel number line 403 and value line 409 to suit your model
-    if channel_3_value > 512 then
+    if transmission_speed > 512 then
         -- Draw the same size letter "H" to the right of the upright part
         indicate_high_speed()
     end
