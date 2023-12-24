@@ -1,15 +1,15 @@
-Radiomaster MT12 Surface Based Luas
+## Radiomaster MT12 Surface Based Luas
 A series of telemetry scripts focused on surface base vehicles
 
 Forked from the amazing Taranis XLite Q7 Lua Dashboard by AndrewFarley:
 From: https://github.com/AndrewFarley/Taranis-XLite-Q7-Lua-Dashboard
 
-Scripts completed:
+# Scripts completed:
 
 1. 2 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, RSSI and Timer.
 2.
 
-Scripts to be added:
+# Scripts to be added:
 
 1. 2 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, Drive Mode and Timer.
 2. 3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, RSSI and Timer.
@@ -17,12 +17,12 @@ Scripts to be added:
 4. MOA Crawler with front and rear dig.  Visually represents the state of front and rear dig, as well as % overdrive for front wheels.
    
 
-Installing
+# Installing
 
 1. Download the lua scripts and place into the /SCRIPTS/TELEMETRY folder of your SD card
 2. Enable the lua as a telemetry screen (Display menu, screen type "Script")
 
-Configuration
+# Configuration
 
 The scripts read certain sensors, switch positions and channel values to perform their various functions.
 
