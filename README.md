@@ -16,9 +16,10 @@ From: https://github.com/AndrewFarley/Taranis-XLite-Q7-Lua-Dashboard
 
 ## Scripts to be added:
 
-
 3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, RSSI and Timer.
-3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, Drive Mode and Timerr.
+  
+3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, Drive Mode and Timer.
+
 MOA Crawler with front and rear dig.  Visually represents the state of front and rear dig, as well as % overdrive for front wheels.
    
 
