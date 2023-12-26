@@ -23,4 +23,8 @@ Change the channel values on lines 404 (for L) and 409 (for H) to suit the outpu
 
 3. Diffs (open or locked)
 
-The
+The script monitors channels 5 and 6 for the state of front and rear diffs, respectively.
+
+Lines 371 to 383 contain the function which handles this.  In its current configuration it
+will showed locked (filled wheels) when these channels are > 0.  Adjust the channels numbers
+and positions accordingly, to suit your setup.
