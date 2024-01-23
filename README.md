@@ -14,6 +14,8 @@ From: https://github.com/AndrewFarley/Taranis-XLite-Q7-Lua-Dashboard
 
 ![Alt text](/Screenshots/2SpdB.png?raw=true "Optional Title")
 
+![Alt text](/Screenshots/screenshot_zorro_24-01-23_12-03-41.png?raw=true "Optional Title")
+
 ## Scripts to be added:
 
 - 3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, RSSI and Timer.
