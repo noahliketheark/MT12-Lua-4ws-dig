@@ -14,6 +14,8 @@ From: https://github.com/AndrewFarley/Taranis-XLite-Q7-Lua-Dashboard
 
 ![Alt text](/Screenshots/2SpdB.png?raw=true "Optional Title")
 
+Dashboard for VFD Twin transmission.  Displays status of Overdrive and DIG functions, as well as drage brake (for castle ESC) and battery info.
+
 ![Alt text](/Screenshots/screenshot_zorro_24-01-23_12-03-41.png?raw=true "Optional Title")
 
 ## Scripts to be added:
