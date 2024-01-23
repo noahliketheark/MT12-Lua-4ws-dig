@@ -59,3 +59,20 @@ The script monitors channels 5 and 6 for the state of front and rear diffs, resp
 Lines 245 to 257 contain the function which handles this.  In its current configuration it
 will showed locked (filled wheels) when these channels are > 0.  Adjust the channels numbers
 and positions accordingly, to suit your setup.
+
+
+## VFD Twin Transmission
+
+This script reads GVAR1 and GVAR2 to determine transmission status:
+
+GVAR1 @ -100 = OD status "Low"
+GVAR1 @ 0 = OD status "RWD"
+GVAR1 @ +100 = OD status "High"
+
+GVAR1 @ -100 = DIG status "4WD"
+GVAR1 @ 0 = DIG status "FWD"
+GVAR1 @ +100 = DIG status "LOCK"
+
+Drag brake reads S2 position and displays as 10% to 100%
+
+Battery voltage reads sensor RxBt and divides by 3 (assumes 3 cell lipo)
