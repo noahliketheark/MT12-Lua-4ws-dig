@@ -76,3 +76,15 @@ GVAR1 @ +100 = DIG status "LOCK"
 Drag brake reads S2 position and displays as 10% to 100%
 
 Battery voltage reads sensor RxBt and divides by 3 (assumes 3 cell lipo)
+
+## GPS Telemetry
+
+This script is based on the Matek ELRS vario receiver with a GPS unit attached.  It should work out of the box.
+
+Installation instructions: 
+Copy GPS.lua to your scripts/telemetry folder
+Create a folder called IMAGES on the root of your SD card.  Place the three .BMP files (gps.bmp, odo.bmp and tx.bmp) in the newly created IMAGES folder.
+Set a telemetry screen with SCRIPT/GPS
+
+Note: battery meter and v/cell readout assumes 6 cell battery.  Change the divider in line 245 to suit your cell count.
+Note: if distance from home and total distance are not working, long press enter, then return from the popup menu.
