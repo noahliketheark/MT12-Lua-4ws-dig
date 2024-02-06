@@ -18,7 +18,7 @@ Dashboard for VFD Twin transmission.  Displays status of Overdrive and DIG funct
 
 ![Alt text](/Screenshots/screenshot_zorro_24-01-23_12-03-41.png?raw=true "Optional Title")
 
-GPS Telemetry 
+GPS Telemetry.  Shows battery info, current/max speed, GPS sats locked, distance from transmitter (home), total distance covered (odometer)
 
 ![Alt text](/Screenshots/screenshot_zorro_24-02-06_20-06-48.png?raw=true "Optional Title")
 
