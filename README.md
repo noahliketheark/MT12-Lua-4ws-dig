@@ -20,7 +20,7 @@ Dashboard for VFD Twin transmission.  Displays status of Overdrive and DIG funct
 
 GPS Telemetry 
 
-
+![Alt text](/Screenshots/screenshot_zorro_24-02-06_20-06-48.png?raw=true "Optional Title")
 
 ## Scripts to be added:
 
