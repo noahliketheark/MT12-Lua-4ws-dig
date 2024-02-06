@@ -18,6 +18,10 @@ Dashboard for VFD Twin transmission.  Displays status of Overdrive and DIG funct
 
 ![Alt text](/Screenshots/screenshot_zorro_24-01-23_12-03-41.png?raw=true "Optional Title")
 
+GPS Telemetry 
+
+
+
 ## Scripts to be added:
 
 - 3 Speed Crawler with Lockable Diffs.  Visually represents the state of a two speed transmission and whether diffs are open or locked.  Shows Battery, RSSI and Timer.
