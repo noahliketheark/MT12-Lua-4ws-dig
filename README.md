@@ -20,6 +20,8 @@ Dashboard for VFD Twin transmission.  Displays status of Overdrive and DIG funct
 
 GPS Telemetry.  Shows battery info, current/max speed, GPS sats locked, distance from transmitter (home), total distance covered (odometer)
 
+Located in GPS folder.  Note instructions in configuration.md regarding necessary bitmaps and v/cell adjustment (currently assumes 6 cell)
+
 ![Alt text](/Screenshots/screenshot_zorro_24-02-06_20-06-48.png?raw=true "Optional Title")
 
 ## Scripts to be added:
