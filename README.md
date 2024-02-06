@@ -35,6 +35,7 @@ GPS Telemetry.  Shows battery info, current/max speed, GPS sats locked, distance
 
 1. Download the lua scripts and place into the /SCRIPTS/TELEMETRY folder of your SD card
 2. Enable the lua as a telemetry screen (Display menu, screen type "Script")
+3. Where applicable, place any .BMP files in /IMAGES folder (create folder if needed)
 
 ## Configuration
 
